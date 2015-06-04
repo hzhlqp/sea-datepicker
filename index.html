@@ -9,7 +9,6 @@
 </head>
 <body>
 <input type="text" class="date" style="left:300px;top:200px;position: absolute;  height: 24px;width: 200px;"/>
-<input type="text" class="date2" style="left:300px;top:300px;position: absolute;  height: 24px;width: 300px;"/>
 <script type="text/javascript">
 $(function(){
 	$(".date").datepicker({
@@ -23,17 +22,6 @@ $(function(){
 		},
 		format:"YYYY/MM/DD"
 	});
-
-	$(".date2").datepicker({
-		init:function(){
-			console.log("init");
-		},
-		change:function() {
-			console.log("change");
-		},
-		format:"YYYY/MM/DD"
-	});
-})
 </script>
 </body>
 </html>
