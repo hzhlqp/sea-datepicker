@@ -11,4 +11,4 @@ $(".date").datepicker(function(){
 		console.log("change");
 	},
 	format:"YYYY/MM/DD"
-})
+}) 
