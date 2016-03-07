@@ -2,17 +2,17 @@
 
 ##用例
 
-`$(function(){  
-	$(".date").datepicker({  
-		start:[2015,6,3],  
-		end:[2015,7,18],  
-		init:function(){  
-			console.log("init");  
-		},  
-		change:function() {  
-			console.log("change");  
-		},  
-		format:"YYYY/MM/DD"  
+`$(function(){    
+	$(".date").datepicker({    
+		start:[2015,6,3],    
+		end:[2015,7,18],    
+		init:function(){    
+			console.log("init");    
+		},    
+		change:function() {    
+			console.log("change");    
+		},    
+		format:"YYYY/MM/DD"   
 	});  
 });  `  
 
