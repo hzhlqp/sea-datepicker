@@ -2,7 +2,7 @@
 
 ##用例
 
-'$(function(){
+`$(function(){
 	$(".date").datepicker({
 		start:[2015,6,3],
 		end:[2015,7,18],
@@ -14,7 +14,7 @@
 		},
 		format:"YYYY/MM/DD"
 	});
-});'
+});`
 
 ##option
 
