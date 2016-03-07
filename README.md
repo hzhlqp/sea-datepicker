@@ -2,15 +2,15 @@
 遵循LGPL协议，欢迎大家使用，也希望大家能积极的给意见
 
 ##option
-*start
+* start
 开始时间
-*end
+* end
 结束时间
-*init
+* init
 初始化执行
-*change
+* change
 日期改变时执行
-*form
+* form
 日期格式
 
 
